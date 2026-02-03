@@ -100,7 +100,7 @@ class TravelCalculator:
 
         self.entry_start, self.entry_end = self.add_row(self.edit_frame, "出差开始日期", "出差结束日期")
         self.entry_traffic, self.entry_other = self.add_row(self.edit_frame, "交通+吃饭补贴", "其他补贴金额")
-        self.entry_house_fixed, self.entry_house_invoice = self.add_row(self.edit_frame, "住宿【包干】\n(包干金额)", "住宿【节支】\n(节支剩余)")
+        self.entry_house_fixed, self.entry_house_invoice = self.add_row(self.edit_frame, "住宿【包干】\n(包干金额)", "住宿【节支】\n(携程价格)")
         self.entry_cost, self.entry_room_350 = self.add_row(self.edit_frame, "每日支出金额", "住宿补贴金额\n350/450/550")
         self.entry_special_money, self.entry_special_days = self.add_row(self.edit_frame, "特殊房补金额", "特殊房补天数")
 
